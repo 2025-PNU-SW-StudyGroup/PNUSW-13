@@ -1,249 +1,126 @@
-# Template for Study Group
-이 레파지토리는 참여자들이 학습공동체 결과물을 위한 레파지토리 생성시에 참고할 내용들을 담고 있습니다.
-1. 레파지토리 생성
-2. 레파지토리 구성
-3. README.md 가이드라인
-4. README.md 작성팁
-<br/>
+# 💊 Pilltip
+<img width="7680" height="4320" alt="34" src="https://github.com/user-attachments/assets/47538752-b8fa-46c1-9f76-7621ca8e7670" />
 
+## Pilltip | 당신만의 개인맞춤 AI 복약관리
 
-## 1. 레파지토리 생성
+Pilltip은 고령화 사회, 의료 정보 격차, 개인정보 보호 등의 복약 관리와 관련된 사회적 문제를 해결하기 위해 기획된 애플리케이션 서비스입니다.
 
-- https://classroom.github.com/a/wUrpZB4m
-- 위 Github Classroom 링크에 접속해 본인 조의 github 레파지토리를 생성하세요.
-  <img src="https://github.com/user-attachments/assets/d82da173-34a9-4adf-82e6-b712c59ecc70" width="600px" alt="classroom에서 팀 생성 그림"/>
-- 레파지토리 생성 시 팀 이름은 `{조번호}` 형식으로 생성하세요.
-- 예를 들어, 3조의 팀명은 `03` 입니다.
-- 이 경우 `PNUSW-03`이라는 이름으로 레포지토리가 생성됩니다.
-- 팀원의 경우 생성되어 있는 팀에 참가해주세요. <br/>
-  팀에 참가하지 않았을 경우, 레포지토리에 대한 권한이 없어 PR 및 commit이 막힐 수 있습니다.
-  <img src="https://github.com/user-attachments/assets/e1eece39-9d07-485a-aadf-74479ee85d90" width="600px" alt="classroom에서 팀 참여 그림"/>
-<br/>
+특히 생성형 AI 기술을 활용하여 기존 시스템이 가진 한계를 보완하고, 사용자의 복약 안전성과 편의성을 동시에 확보하고자 하였습니다.
 
+Pilltip은 개인의 건강 상태와 복약 이력을 기반으로, 맞춤형 AI 복약 가이드와 알림, 디지털 문진, 개인맞춤 DUR 서비스, 손쉬운 약물 정보 조회까지 통합 제공하여,
 
-## 2. 레파지토리 구성
-- 레파지토리 내에 `README.md` 파일 생성하고 아래의 가이드라인과 작성팁을 참고하여 파일을 작성하세요.
-- 레파지토리 내에 `docs` 폴더를 생성하고 폴더 내에는 과제 수행 하면서 작성한 각종 보고서, 발표자료를 올려둡니다.
-- 그 밖에 레파지토리의 폴더 구성은 과제 결과물에 따라 자유롭게 구성하되 가급적 코드의 목적이나 기능에 따라 폴더를 나누어 구성하세요.  
-<br/>
+사용자 스스로 안전하고, 편리하게 복약을 관리할 수 있도록 돕습니다.
 
+## 서비스 시연 영상
+<p align="center">
+  <a href="https://youtu.be/XnE1se8ShuI?si=R6i9vY2ZOtT7HBvu">
+    <img src="https://github.com/user-attachments/assets/acf08b38-7677-4f70-9eb6-44eb7b047346" width="10%" alt="서비스 시연 영상">
+  </a>
+</p>
 
-## 3. README.md 가이드라인
-- README 파일 작성시에 아래의 5가지 항목의 내용은 필수적으로 포함해야 합니다.
-- 아래의 7가지 항목이외에 프로젝트의 이해를 돕기위한 내용을 추가해도 됩니다.
-- `SAMPLE_README.md`가 단순한 형태의 예제이니 참고하세요.
-```markdown
-### 1. 프로젝트 소개
-#### 1.1. 개발배경 및 필요성
-> 프로젝트를 실행하게 된 배경 및 필요성을 작성하세요.
+## 기획 배경
+현대 사회의 고령화, 만성질환의 증가, 건강에 대한 관심 증가는 개인의 복약 관리 수요를 급격히 높이고 있습니다. 그러나 의료 시스템은 하기한 구조적 한계를 지닙니다.
 
-#### 1.2. 개발 목표 및 주요 내용
-> 프로젝트의 목표 및 주요 내용을 작성하세요.
+- 다약제 복용의 증가: 고령층의 약 82.4%가 5종 이상의 약을 복용하며, 본인의 복약 내용을 인지하기 어려운 경우가 많습니다.
+  
+- 기존 복약 시스템의 비효율성: 종이 처방전, 약 봉투 등에 의존한 정보 제공은 가독성이 떨어지고, 이해하기 어려운 경우가 많습니다.
+ 
+- 약물 사고의 빈도 증가: 2023년 전체 환자 안전사고의 52.8%가 약물 관련 사고로, DUR(의약품안전사용서비스) 시스템이 아직 완전히 도입되지 않았고, 법적인 안전장치도 부족해서 처방전 간의 상호 검증에도 한계가 있습니다.
+  
+- 민감정보의 체계화된 관리 시스템 부족: 처방전이나 문진표같은 민감한 정보는 체계화된 관리 시스템이 부족하여 개인정보 유출 사고가 자주 발생합니다.
+  - 이러한 예로 지난 2022년 개인정보가 담긴 처방전을 제대로 파기하지 않고 그대로 쓰레기 수거장에 버리는 바람에 개인정보가 유출된 사건
+  - 종이 처방전을 둘 곳이 없어 사용자들이 이용하는 계단에 처방전을 보관하는 등의 문제가 있었습니다
+    
+- 개인정보 주도권 부재: 환자가 자신의 복약 이력과 정보를 능동적으로 관리하기 어려우며, 정보의 흐름을 통제하기 어렵습니다.
 
-#### 1.3. 세부내용
-> 위 내용을 작성하세요.
+이러한 문제들은 사용자가 **스스로 약물 정보를 통합 관리하고, 약물 상호작용 및 부작용을 사전에 인지할 수 있는 새로운 디지털 솔루션**의 필요성을 시사합니다.
 
-#### 1.4. 기존 서비스 대비 차별성
-> 위 내용을 작성하세요.
+## 필팁 소개
+<img width="7680" height="4320" alt="2" src="https://github.com/user-attachments/assets/93cfebbd-6248-4efa-baf6-394af247d04a" />
+<img width="7680" height="4320" alt="3" src="https://github.com/user-attachments/assets/5306a3f4-225f-4f88-9a1c-fa1d48fa3847" />
+<img width="7680" height="4320" alt="4" src="https://github.com/user-attachments/assets/d4290dc9-62b4-47b5-83a1-7e24a1b0353f" />
+<img width="7680" height="4320" alt="5" src="https://github.com/user-attachments/assets/79c09381-09c4-48ae-9ceb-298c9bc394ee" />
+<img width="7680" height="4320" alt="6" src="https://github.com/user-attachments/assets/bac7403a-323a-44bd-9782-fa664942b876" />
+<img width="7680" height="4320" alt="7" src="https://github.com/user-attachments/assets/c162dec8-7f13-4bec-8dce-416556a23078" />
+<img width="7680" height="4320" alt="8" src="https://github.com/user-attachments/assets/afceec54-24d9-46e4-8c1a-8134ec762aab" />
+<img width="7680" height="4320" alt="9" src="https://github.com/user-attachments/assets/084b3482-9d82-4853-ba24-fbed4689a556" />
+<img width="7680" height="4320" alt="10" src="https://github.com/user-attachments/assets/7d319a4c-11f5-4ccf-9821-b734deca6668" />
+<img width="7680" height="4320" alt="11" src="https://github.com/user-attachments/assets/9f7d5098-747b-461f-93e7-5314d8a0267b" />
+<img width="7680" height="4320" alt="12" src="https://github.com/user-attachments/assets/dbeb0067-a1f9-4dc7-9ae7-7b376b49abc4" />
+<img width="7680" height="4320" alt="13" src="https://github.com/user-attachments/assets/49ca230c-e2b6-4556-8bb6-c626865a0fa2" />
+<img width="7680" height="4320" alt="14" src="https://github.com/user-attachments/assets/38ae2204-d1ac-4a21-bacd-618516abbb21" />
+<img width="7680" height="4320" alt="15" src="https://github.com/user-attachments/assets/f9f3a651-6465-4c00-adbd-19dc24c022ea" />
+<img width="7680" height="4320" alt="16" src="https://github.com/user-attachments/assets/3f4be7e2-93dd-4eb2-a8d6-ba603a6c55bb" />
+<img width="7680" height="4320" alt="17" src="https://github.com/user-attachments/assets/1933bcb2-2bc5-47c8-a4bd-2143c63fe48b" />
+<img width="7680" height="4320" alt="18" src="https://github.com/user-attachments/assets/06b51c06-9d9c-4c35-b36e-97f4e2a8ac6b" />
+<img width="7680" height="4320" alt="19" src="https://github.com/user-attachments/assets/7ccc72c9-44da-444d-8e26-2f9dc0444e44" />
+<img width="7680" height="4320" alt="20" src="https://github.com/user-attachments/assets/a950642c-6cd4-49b3-96fb-6611cb1f16e2" />
+<img width="7680" height="4320" alt="21" src="https://github.com/user-attachments/assets/3c807366-2cac-4926-9adc-330e0846bb3a" />
+<img width="1920" height="1080" alt="22" src="https://github.com/user-attachments/assets/6c2f8608-099c-49c5-8da4-2d5c42f92ac8" />
+<img width="7680" height="4320" alt="23" src="https://github.com/user-attachments/assets/54a6acf8-e873-4c90-9e40-6320b7cbf864" />
+<img width="7680" height="4320" alt="24" src="https://github.com/user-attachments/assets/617188ed-3914-454f-96f8-f53ac34bfe89" />
 
-#### 1.5. 사회적가치 도입 계획
-> 위 내용을 작성하세요.
+## 기술 및 아키텍처
+**기술 스택**
+- **Frontend**: Kotlin, Android, Jetpack Compose, Hilt
+- **Backend**: Java, Spring Boot, elasticsearch, redis, NGiNX, Next.js
+- **Design**: Figma, Adobe Illustrator, Adobe Photoshop
+  
+**사용된 API 및 서비스**
+- 공공데이터포털 | 식품의약품안전처
+  - 의약품개요정보 e약은요
+  - 의약품안전사용서비스(DUR) 품목정보
+  - 의약품 제품 허가정보
+  - 의약품 성분별 1일 최대투여량 정보
+- 공공데이터포털 | 건강보험심사평가원
+  - 의약품성분약효정보조회서비스
+- Kakao API(OAuth2.0)
+- Google Firebase Cloud Messaging
+- Open AI API (GPT-4o mini))
 
+## 팀 Pilltip 💊
+2025년 출발한 우리 필팁(Pilltip)은 모든 사람에게 편리한 개인맞춤 AI 의약관리 애플리케이션을 제공하는 것을 목표로 출발하였습니다.
 
-### 2. 상세설계
-#### 2.1. 시스템 구성도
-> 시스템 구성도(infra, front, back등의 node 간의 관계)의 사진을 삽입하세요.
+네 명의 부산대학교 정보컴퓨터공학부|의류학과 20학번 학부생으로 구성된 우리 팀은
 
-#### 2.1. 사용 기술
-> 스택 별(backend, frontend, designer등) 사용한 기술 및 버전을 작성하세요.
-> 
-> ex) React.Js - React14, Node.js - v20.0.2
+팀 단위 앱 개발을 통해 프로젝트의 성공적인 마무리 및 SW중심대학 디지털경진대회 수상, 팀원 간 우애 도모를 목표로 합니다.  
 
-### 3. 개발결과
-#### 3.1. 전체시스템 흐름도
-> 위 내용을 작성하세요.
+### 팀원 소개
+<div align="center">
+  <table>
+    <tr>
+     <td align="center" width="25%">
+       <br>
+        <img src="https://avatars.githubusercontent.com/u/77396909?v=4" width="120" height="120"><br>
+        <a href="https://github.com/gykim22">김기윤</a><br>
+        FE<br>
+        정보컴퓨터공학부
+      </td>
+      <td align="center" width="25%">
+        <br>
+        <img src="https://avatars.githubusercontent.com/u/162964181?v=4" width="120" height="120"><br>
+        <a href="https://github.com/Mireutale">강태진</a><br>
+        BE<br>
+        정보컴퓨터공학부
+      </td>
+      <td align="center" width="25%">
+        <br>
+        <img src="https://avatars.githubusercontent.com/u/96414625?v=4" width="120" height="120"><br>
+        <a href="https://github.com/Martinel2">김재형</a><br>
+        BE<br>
+        정보컴퓨터공학부
+      </td>
+     <td align="center" width="25%">
+       <br>
+        <img src="https://avatars.githubusercontent.com/u/182388479?v=4" width="120" height="120"><br>
+        <a href="https://github.com/LeeJuAe124">이주애</a><br>
+        Design<br>
+        의류학과
+      </td>
+    </tr>
+  </table>
+</div>
 
-#### 3.2. 기능설명
-> 각 페이지 마다 사용자의 입력의 종류와 입력에 따른 결과 설명 및 시연 영상.
-> 
-> ex. 로그인 페이지:
-> 
-> - 이메일 주소와 비밀번호를 입력하면 입력창에서 유효성 검사가 진행됩니다.
-> 
-> - 요효성 검사를 통과하지 못한 경우, 각 경고 문구가 입력창 하단에 표시됩니다.
->   
-> - 유효성 검사를 통과한 경우, 로그인 버튼이 활성화 됩니다.
->   
-> - 로그인 버튼을 클릭 시, 입력한 이메일 주소와 비밀번호에 대한 계정이 있는지 확인합니다.
->   
-> - 계정이 없는 경우, 경고문구가 나타납니다.
->
-> (영상)
-
-#### 3.3. 기능명세서
-> 개발한 제품에 대한 기능명세서를 작성해 제출하세요.
-> 
-> 노션 링크, 한글 문서, pdf 파일, 구글 스프레드 시트 등...
-
-#### 3.4. 디렉토리 구조
-> 위 레포지토리의 디렉토리 구조를 설명하세요.
-
-### 4. 설치 및 사용 방법
-> 제품을 설치하기 위헤 필요한 소프트웨어 및 설치 방법을 작성하세요.
->
-> 제품을 설치하고 난 후, 실행 할 수 있는 방법을 작성하세요.
-
-### 5. 소개 및 시연 영상
-> 프로젝트에 대한 소개와 시연 영상을 넣으세요.
-> 프로젝트 소개 동영상을 교육원 메일(swedu@pusan.ac.kr)로 제출 이후 센터에서 부여받은 youtube URL주소를 넣으세요.
-
-### 6. 팀 소개
-> 팀원 소개 & 구성원 별 역할 분담 & 간단한 연락처를 작성하세요.
-
-### 7. 해커톤 참여 후기
-> 팀원 별 해커톤 참여 후기를 작성하세요.
-```
-<br/>
-
-
-## 4. README.md 작성 팁
-- 마크다운 언어를 이용해 README.md 파일을 작성할 때 참고할 수 있는 마크다운 언어 문법을 공유합니다.
-- 다양한 예제와 보다 자세한 문법은 [이 문서](https://www.markdownguide.org/basic-syntax/)를 참고하세요.
-
-### 4.1. 헤더 Header
-```
-# This is a Header 1
-## This is a Header 2
-### This is a Header 3
-#### This is a Header 4
-##### This is a Header 5
-###### This is a Header 6
-####### This is a Header 7 은 지원되지 않습니다.
-```
-
-# This is a Header 1
-## This is a Header 2
-### This is a Header 3
-#### This is a Header 4
-##### This is a Header 5
-###### This is a Header 6
-####### This is a Header 7 은 지원되지 않습니다.
-<br />
-
-### 4.2. 인용문 BlockQuote
-```
-> This is a first blockqute.
->	> This is a second blockqute.
->	>	> This is a third blockqute.
-```
-> This is a first blockqute.
->	> This is a second blockqute.
->	>	> This is a third blockqute.
-<br />
-
-### 4.3. 목록 List
-* **Ordered List**
-```
-1. first
-2. second
-3. third  
-```
-1. first
-2. second
-3. third
-<br />
-
-* **Unordered List**
-```
-* 하나
-  * 둘
-
-+ 하나
-  + 둘
-
-- 하나
-  - 둘
-```
-* 하나
-  * 둘
-
-+ 하나
-  + 둘
-
-- 하나
-  - 둘
-<br />
-
-### 4.4. 코드 CodeBlock
-* 코드 블럭 이용 '``'
-```
-여러줄 주석 "```" 이용
-"```
-#include <stdio.h>
-int main(void){
-  printf("Hello world!");
-  return 0;
-}
-```"
-
-단어 주석 "`" 이용
-"`Hello world`"
-
-* 큰 따움표(") 없이 사용하세요.
-``` 
-<br />
-
-### 4.5. 링크 Link
-```
-[Title](link)
-[부산대 소프트웨어융합교육원](https://swedu.pusan.ac.kr/swedu/index.do)
-
-<link>
-<https://swedu.pusan.ac.kr>
-``` 
-[부산대 소프트웨어융합교육원](https://swedu.pusan.ac.kr)
-
-<https://swedu.pusan.ac.kr>  
-<br />
-
-### 4.6. 강조 Highlighting
-```
-*single asterisks*
-_single underscores_
-**double asterisks**
-__double underscores__
-~~cancelline~~
-```
-*single asterisks* <br />
-_single underscores_ <br />
-**double asterisks** <br />
-__double underscores__ <br />
-~~cancelline~~  <br />
-<br />
-
-### 4.7. 이미지 Image
-```
-<img src="/path/to/img.jpg" width="600px" title="Title" alt="Alt text"></img>
-![Alt text](/path/to/img.jpg "Optional title")
-```
-<img src="https://github.com/pnuswedu/SW-Hackathon-2024/assets/34933690/be7beb64-490f-4480-b121-f25cde7f2a8d" width="600px" title="부산대학교 소프트웨어융합교육원" alt="부산대학교 소프트웨어융합교육원"></img>
-<br/>
-![부산대학교 소프트웨어융합교육원](https://github.com/pnuswedu/SW-Hackathon-2024/assets/34933690/884154bb-28f6-4498-9f64-a8a878972951, "부산대학교 소프트웨어융합교육원")
-<br/>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+## 저작권
+Copyright 2025 '**Pilltip**' All right reserved.
+본 레포지토리 내 코드 또는 작업물의 무단 복제 및 사전 동의 없는 활용을 금합니다.
