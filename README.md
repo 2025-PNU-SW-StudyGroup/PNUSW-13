@@ -18,6 +18,15 @@ Pilltip은 개인의 건강 상태와 복약 이력을 기반으로, 맞춤형 A
   </a>
 </p>
 
+## 수상 이력
+<a href="https://cse.pusan.ac.kr/cse/14651/subview.do?enc=Zm5jdDF8QEB8JTJGYmJzJTJGY3NlJTJGMjYwNSUyRjE3MjUzNzIlMkZhcnRjbFZpZXcuZG8lM0ZiYnNPcGVuV3JkU2VxJTNEJTI2aXNWaWV3TWluZSUzRGZhbHNlJTI2c3JjaENvbHVtbiUzRHNqJTI2cGFnZSUzRDElMjZzcmNoV3JkJTNEJTI1RUIlMjU5NCUyNTk0JTI1RUMlMjVBNyUyNTgwJTI1RUQlMjU4NCUyNUI4JTI2cmdzQmduZGVTdHIlM0QlMjZiYnNDbFNlcSUzRCUyNnBhc3N3b3JkJTNEJTI2cmdzRW5kZGVTdHIlM0QlMjY%3D">
+    <img width="900" height="1378" alt="image" src="https://github.com/user-attachments/assets/eadc61ac-c378-4454-94ba-dc335f97b735" />
+  </a>
+
+### 2025 SW중심대학 디지털 경진대회 : SW부문
+  - 부산대학교 대표팀으로 참가 및 수상 확정 | 08.12 서울 중구 대한상공회의소 발표 평가 이후 상격 결정
+
+
 ## 기획 배경
 현대 사회의 고령화, 만성질환의 증가, 건강에 대한 관심 증가는 개인의 복약 관리 수요를 급격히 높이고 있습니다. 그러나 의료 시스템은 하기한 구조적 한계를 지닙니다.
 
