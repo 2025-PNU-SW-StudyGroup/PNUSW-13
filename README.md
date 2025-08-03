@@ -102,7 +102,7 @@ Pilltip은 개인의 건강 상태와 복약 이력을 기반으로, 맞춤형 A
        <br>
         <img src="https://avatars.githubusercontent.com/u/77396909?v=4" width="120" height="120"><br>
         <a href="https://github.com/gykim22">김기윤</a><br>
-        FE<br>
+        FE/PM<br>
         정보컴퓨터공학부
       </td>
       <td align="center" width="25%">
